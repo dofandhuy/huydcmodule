@@ -1,0 +1,93 @@
+/* Định dạng chung cho toàn bộ trang web */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Định dạng cho header */
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Định dạng cho thanh điều hướng */
+nav {
+    background-color: #333;
+    padding: 10px;
+    display: inline-block;
+    width: 80%;
+}
+
+/* Định dạng cho ảnh trong nav */
+nav img {
+    width: 10%;
+}
+
+/* Định dạng cho phần nội dung chính */
+main {
+    background-color: #f4f4f4;
+    font-size: 18px;
+    padding: 20px;
+}
+
+/* Định dạng cho footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Định dạng cho danh sách - Đã được comment lại */
+/* li {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+} */
+
+/* Định dạng cho tiêu đề chính */
+h1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #333;
+}
+
+/* Định dạng cho đoạn văn */
+p {
+    line-height: 1.6;
+}
+
+/* Định dạng cho skip to main content link */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    background: white;
+    padding: 10px;
+    z-index: 100;
+}
+.skip-link:focus {
+    top: 10px;
+}
+
+/* Định dạng cho grid */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+/* Định dạng cho ảnh trong grid */
+.grid img {
+    width: 100%;
+}
+
+/* Định dạng cho flex */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
